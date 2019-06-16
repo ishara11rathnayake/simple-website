@@ -9,9 +9,10 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, RegisterComponent, ContactComponent, AboutComponent],
+  declarations: [AppComponent, LoginComponent, RegisterComponent, ContactComponent, AboutComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
